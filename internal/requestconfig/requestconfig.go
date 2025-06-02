@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stainless-sdks/godemo-go/internal"
-	"github.com/stainless-sdks/godemo-go/internal/apierror"
-	"github.com/stainless-sdks/godemo-go/internal/apiform"
-	"github.com/stainless-sdks/godemo-go/internal/apiquery"
+	"github.com/ankitdas13/goDemo/internal"
+	"github.com/ankitdas13/goDemo/internal/apierror"
+	"github.com/ankitdas13/goDemo/internal/apiform"
+	"github.com/ankitdas13/goDemo/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {

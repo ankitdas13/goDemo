@@ -10,12 +10,12 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/stainless-sdks/godemo-go/internal/apijson"
-	"github.com/stainless-sdks/godemo-go/internal/apiquery"
-	"github.com/stainless-sdks/godemo-go/internal/requestconfig"
-	"github.com/stainless-sdks/godemo-go/option"
-	"github.com/stainless-sdks/godemo-go/packages/param"
-	"github.com/stainless-sdks/godemo-go/packages/respjson"
+	"github.com/ankitdas13/goDemo/internal/apijson"
+	"github.com/ankitdas13/goDemo/internal/apiquery"
+	"github.com/ankitdas13/goDemo/internal/requestconfig"
+	"github.com/ankitdas13/goDemo/option"
+	"github.com/ankitdas13/goDemo/packages/param"
+	"github.com/ankitdas13/goDemo/packages/respjson"
 )
 
 // OrderService contains methods and other services that help with interacting with

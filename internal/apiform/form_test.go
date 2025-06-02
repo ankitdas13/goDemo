@@ -2,7 +2,7 @@ package apiform
 
 import (
 	"bytes"
-	"github.com/stainless-sdks/godemo-go/packages/param"
+	"github.com/ankitdas13/goDemo/packages/param"
 	"io"
 	"mime/multipart"
 	"strings"
