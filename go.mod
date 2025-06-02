@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/godemo-go
+module github.com/ankitdas13/goDemo
 
 go 1.21
 

@@ -1,6 +1,6 @@
 # Godemo Go API Library
 
-<a href="https://pkg.go.dev/github.com/stainless-sdks/godemo-go"><img src="https://pkg.go.dev/badge/github.com/stainless-sdks/godemo-go.svg" alt="Go Reference"></a>
+<a href="https://pkg.go.dev/github.com/ankitdas13/goDemo"><img src="https://pkg.go.dev/badge/github.com/ankitdas13/goDemo.svg" alt="Go Reference"></a>
 
 The Godemo Go library provides convenient access to the [Godemo REST API](https://razorpay.com/docs/api)
 from applications written in Go.
@@ -9,17 +9,25 @@ It is generated with [Stainless](https://www.stainless.com/).
 
 ## Installation
 
+<!-- x-release-please-start-version -->
+
 ```go
 import (
-	"github.com/stainless-sdks/godemo-go" // imported as godemo
+	"github.com/ankitdas13/goDemo" // imported as godemo
 )
 ```
 
+<!-- x-release-please-end -->
+
 Or to pin the version:
 
+<!-- x-release-please-start-version -->
+
 ```sh
-go get -u 'github.com/stainless-sdks/godemo-go@v0.0.1-alpha.0'
+go get -u 'github.com/ankitdas13/goDemo@v0.0.1-alpha.0'
 ```
+
+<!-- x-release-please-end -->
 
 ## Requirements
 
@@ -36,8 +44,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stainless-sdks/godemo-go"
-	"github.com/stainless-sdks/godemo-go/option"
+	"github.com/ankitdas13/goDemo"
+	"github.com/ankitdas13/goDemo/option"
 )
 
 func main() {
@@ -263,7 +271,7 @@ client.Orders.List(context.TODO(), ...,
 )
 ```
 
-See the [full list of request options](https://pkg.go.dev/github.com/stainless-sdks/godemo-go/option).
+See the [full list of request options](https://pkg.go.dev/github.com/ankitdas13/goDemo/option).
 
 ### Pagination
 
@@ -469,7 +477,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/godemo-go/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/ankitdas13/goDemo/issues) with questions, bugs, or suggestions.
 
 ## Contributing
 

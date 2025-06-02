@@ -3,8 +3,8 @@ package respjson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stainless-sdks/godemo-go/internal/apijson"
-	rj "github.com/stainless-sdks/godemo-go/packages/respjson"
+	"github.com/ankitdas13/goDemo/internal/apijson"
+	rj "github.com/ankitdas13/goDemo/packages/respjson"
 	"reflect"
 	"testing"
 )

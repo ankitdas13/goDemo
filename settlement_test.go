@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/godemo-go"
-	"github.com/stainless-sdks/godemo-go/internal/testutil"
-	"github.com/stainless-sdks/godemo-go/option"
+	"github.com/ankitdas13/goDemo"
+	"github.com/ankitdas13/goDemo/internal/testutil"
+	"github.com/ankitdas13/goDemo/option"
 )
 
 func TestSettlementGet(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/stainless-sdks/godemo-go/internal/requestconfig"
-	"github.com/stainless-sdks/godemo-go/option"
+	"github.com/ankitdas13/goDemo/internal/requestconfig"
+	"github.com/ankitdas13/goDemo/option"
 )
 
 // Client creates a struct with services and top level methods that help with
