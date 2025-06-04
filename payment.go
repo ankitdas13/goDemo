@@ -561,7 +561,7 @@ type PaymentUpdateParamsNotesUnion struct {
 }
 
 func (u PaymentUpdateParamsNotesUnion) MarshalJSON() ([]byte, error) {
-	return param.MarshalUnion[PaymentUpdateParamsNotesUnion](u.OfStringMap, u.OfStringArray)
+	return param.MarshalUnion(u, u.OfStringMap, u.OfStringArray)
 }
 func (u *PaymentUpdateParamsNotesUnion) UnmarshalJSON(data []byte) error {
 	return apijson.UnmarshalRoot(data, u)
