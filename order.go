@@ -132,7 +132,7 @@ func (r *NotesUnion) UnmarshalJSON(data []byte) error {
 // be used at the last possible moment before sending a request. Test for this with
 // NotesUnionParam.Overrides()
 func (r NotesUnion) ToParam() NotesUnionParam {
-	return param.Override[NotesUnionParam](r.RawJSON())
+	return param.Override[NotesUnionParam](json.RawMessage(r.RawJSON()))
 }
 
 // Only one field can be non-zero.
