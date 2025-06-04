@@ -4,6 +4,7 @@ package godemo
 
 import (
 	"context"
+	"encoding/json"
 	"errors"
 	"fmt"
 	"net/http"
@@ -175,7 +176,7 @@ func (r *PlanItem) UnmarshalJSON(data []byte) error {
 // be used at the last possible moment before sending a request. Test for this with
 // PlanItemParam.Overrides()
 func (r PlanItem) ToParam() PlanItemParam {
-	return param.Override[PlanItemParam](r.RawJSON())
+	return param.Override[PlanItemParam](json.RawMessage(r.RawJSON()))
 }
 
 type PlanItemParam struct {
