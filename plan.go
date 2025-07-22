@@ -4,15 +4,16 @@ package godemo
 
 import (
 	"context"
+	"encoding/json"
 	"errors"
 	"fmt"
 	"net/http"
 
-	"github.com/stainless-sdks/godemo-go/internal/apijson"
-	"github.com/stainless-sdks/godemo-go/internal/requestconfig"
-	"github.com/stainless-sdks/godemo-go/option"
-	"github.com/stainless-sdks/godemo-go/packages/param"
-	"github.com/stainless-sdks/godemo-go/packages/respjson"
+	"github.com/ankitdas13/goDemo/internal/apijson"
+	"github.com/ankitdas13/goDemo/internal/requestconfig"
+	"github.com/ankitdas13/goDemo/option"
+	"github.com/ankitdas13/goDemo/packages/param"
+	"github.com/ankitdas13/goDemo/packages/respjson"
 )
 
 // PlanService contains methods and other services that help with interacting with
@@ -175,7 +176,7 @@ func (r *PlanItem) UnmarshalJSON(data []byte) error {
 // be used at the last possible moment before sending a request. Test for this with
 // PlanItemParam.Overrides()
 func (r PlanItem) ToParam() PlanItemParam {
-	return param.Override[PlanItemParam](r.RawJSON())
+	return param.Override[PlanItemParam](json.RawMessage(r.RawJSON()))
 }
 
 type PlanItemParam struct {

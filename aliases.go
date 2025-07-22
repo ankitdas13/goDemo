@@ -3,8 +3,8 @@
 package godemo
 
 import (
-	"github.com/stainless-sdks/godemo-go/internal/apierror"
-	"github.com/stainless-sdks/godemo-go/packages/param"
+	"github.com/ankitdas13/goDemo/internal/apierror"
+	"github.com/ankitdas13/goDemo/packages/param"
 )
 
 // aliased to make [param.APIUnion] private when embedding

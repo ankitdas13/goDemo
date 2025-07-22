@@ -1,7 +1,7 @@
 package apiquery
 
 import (
-	"github.com/stainless-sdks/godemo-go/packages/param"
+	"github.com/ankitdas13/goDemo/packages/param"
 	"reflect"
 )
 

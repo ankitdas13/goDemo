@@ -1,7 +1,7 @@
 package apijson
 
 import (
-	"github.com/stainless-sdks/godemo-go/packages/respjson"
+	"github.com/ankitdas13/goDemo/packages/respjson"
 	"reflect"
 )
 

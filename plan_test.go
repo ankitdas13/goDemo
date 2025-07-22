@@ -8,10 +8,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/godemo-go"
-	"github.com/stainless-sdks/godemo-go/internal/testutil"
-	"github.com/stainless-sdks/godemo-go/option"
-	"github.com/stainless-sdks/godemo-go/packages/param"
+	"github.com/ankitdas13/goDemo"
+	"github.com/ankitdas13/goDemo/internal/testutil"
+	"github.com/ankitdas13/goDemo/option"
+	"github.com/ankitdas13/goDemo/packages/param"
 )
 
 func TestPlanNewWithOptionalParams(t *testing.T) {

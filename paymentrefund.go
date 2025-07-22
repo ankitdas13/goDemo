@@ -3,9 +3,9 @@
 package godemo
 
 import (
-	"github.com/stainless-sdks/godemo-go/internal/apijson"
-	"github.com/stainless-sdks/godemo-go/option"
-	"github.com/stainless-sdks/godemo-go/packages/respjson"
+	"github.com/ankitdas13/goDemo/internal/apijson"
+	"github.com/ankitdas13/goDemo/option"
+	"github.com/ankitdas13/goDemo/packages/respjson"
 )
 
 // PaymentRefundService contains methods and other services that help with
